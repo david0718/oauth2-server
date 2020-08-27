@@ -23,5 +23,6 @@ values (1, 1),
 
 # init  sample data
 use oauth2_server;
-update oauth_client_entity set web_server_redirect_uri='https://identity-server.apps.dhccloud.com.cn/login/oauth2/code/sso-login' where id=1
+update oauth_client_entity set web_server_redirect_uri='https://client-server.apps.dhccloud.com.cn/login/oauth2/code/sso-login' where id=1
+
 
